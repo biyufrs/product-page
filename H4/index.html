@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Student Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="label">STUDENTS</div>
+
+      <div class="search">
+        <input type="text" id="searchInput" placeholder="Search by name..." />
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>STUDENT NAME</th>
+            <th>CLASS</th>
+            <th>SCORE</th>
+          </tr>
+        </thead>
+        <tbody id="studentTable"></tbody>
+      </table>
+
+      <div class="average">
+        AVERAGE SCORE:
+        <span id="averageScore">0</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
